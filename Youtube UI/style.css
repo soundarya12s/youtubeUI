@@ -1,0 +1,110 @@
+
+
+.border-radius-2rem {
+    border-radius: 2rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.custom-hover {
+    border: 1px solid #dee2e6;
+}
+
+.custom-hover:hover {
+    background-color: #c1c1c159 !important;
+    color: #000 !important;
+}
+
+.font-color-black, .hover-text:hover {
+    color: #000;
+}
+
+.middle-contents {
+    width: 40%;
+}
+
+.search-bar input {
+    border-radius: 4rem;
+}
+
+.search-bar button {
+    border-radius: 0 4rem 4rem 0;
+}
+
+.voice-search {
+    background-color: #dee2e6;
+    border-radius: 50%;
+}
+
+.voice-search:hover {
+    background-color: #c1c1c159;
+}
+
+.profile-icon{
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgb(104, 59, 2);
+}
+
+.badge{
+    font-size: 10px !important;
+    font-weight: 400;
+}
+
+.sidebar {
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-closed {
+    display: none;
+    transform: translateX(-100%);
+}
+
+.sidebar-open {
+    transform: translateX(0);
+    height: 100vh;
+    width: 25%;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.xy-box-shadow {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1411764706), 0 0 2px rgba(0, 0, 0, 0.1215686275);
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-color-dull{
+    color: #7a7a7a;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.search-icon-sm, .voice-search-sm,.navbar-toggler{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .sidebar, .sidebar-open, .search-bar, .voice-search, .burger-icon{
+        display: none;
+    }
+    .search-icon-sm, .voice-search-sm,.navbar-toggler{
+        display: block;
+    }
+    .offcanvas.offcanvas-start{
+        width: 20rem !important;
+    }
+}
